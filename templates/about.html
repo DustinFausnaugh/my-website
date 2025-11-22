@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+</head>
+<body>
+    <h1>About me</h1>
+    <p>📍 Eugene, Oregon</p>
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/dustin-fausnaugh-176a482b9/" target="_blank">
+            View my profile
+        </a>
+    </p>
+    <p> Hello! My name is Dustin Fausnaugh. I am a Mathematics and Computer Science student in my senior year at the University Of Oregon.</p>
+    <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="My Profile Picture" width="200">
+    <br>
+    <a href="{{ url_for('home') }}">
+        <button>Back to Homepage</button>
+    </a>
+</body>
+</html>
