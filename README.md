@@ -26,3 +26,10 @@ app.py          - Flask application
 requirements.txt
 README.md
 ```
+### Screenshots of Webpage
+
+![Screenshot of homepage](static/images/homepage.png)
+
+![Screenshot of about page](static/images/about.png)
+
+![Screenshot of projects page](static/images/projects.png)
